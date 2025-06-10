@@ -46,6 +46,19 @@ jobs:
           mkdir -p storage/database
           touch storage/database/database.sqlite
 
+      - name: Prepare storage folders
+        run: |
+          mkdir -p storage/app
+          mkdir -p storage/app/public
+          mkdir -p storage/framework
+          mkdir -p storage/framework/cache
+          mkdir -p storage/framework/cache/data
+          mkdir -p storage/framework/sessions
+          mkdir -p storage/framework/testing
+          mkdir -p storage/framework/views
+          mkdir -p storage/logs
+          mkdir -p storage/database
+
       - name: Run migrations (for SQLite in-memory)
         run: php artisan migrate --env=testing
 
