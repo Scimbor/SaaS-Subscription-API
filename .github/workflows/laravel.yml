@@ -49,11 +49,11 @@ jobs:
       - name: Run migrations (for SQLite in-memory)
         run: php artisan migrate --env=testing
 
-        - name: List files and folders
-          run: |
-            ls -la
-            ls -la ./storage
-            ls -la ./bootstrap
+      - name: List files and folders
+        run: |
+          ls -la
+          ls -la ./storage
+          ls -la ./bootstrap
 
       - name: Run PHPUnit tests
         env:
