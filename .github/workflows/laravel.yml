@@ -35,7 +35,7 @@ jobs:
           composer install --prefer-dist --no-progress
 
       - name: Run PHP-CS-Fixer (lint)
-        run: ./storage/vendor/bin/php-cs-fixer fix --dry-run --diff
+        run: ./vendor/bin/php-cs-fixer fix --dry-run --diff
 
       - name: Set up application key
         run: php artisan key:generate
@@ -47,4 +47,4 @@ jobs:
         env:
           DB_CONNECTION: sqlite
           DB_DATABASE: ':memory:'
-        run: ./storage/vendor/bin/phpunit
+        run: ./vendor/bin/phpunit
