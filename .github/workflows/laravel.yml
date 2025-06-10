@@ -41,6 +41,11 @@ jobs:
       - name: Set up application key
         run: php artisan key:generate
 
+      - name: Prepare SQLite file-based DB
+        run: |
+          mkdir -p storage/database
+          touch storage/database/database.sqlite
+
       - name: Run migrations (for SQLite in-memory)
         run: php artisan migrate --env=testing
 
