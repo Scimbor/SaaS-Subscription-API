@@ -7,6 +7,9 @@ on:
 jobs:
   laravel-tests:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
 
     services:
       mysql:
@@ -30,9 +33,7 @@ jobs:
           coverage: none
 
       - name: Install Composer dependencies
-        run: |
-          cd app
-          composer install --prefer-dist --no-progress
+        run: composer install --prefer-dist --no-progress
 
       - name: Run PHP-CS-Fixer (lint)
         run: ./vendor/bin/php-cs-fixer fix --dry-run --diff
@@ -47,4 +48,4 @@ jobs:
         env:
           DB_CONNECTION: sqlite
           DB_DATABASE: ':memory:'
-        run: ./vendor/bin/phpunit
+        run: ./storage/vendor/bin/phpunit
