@@ -11,7 +11,7 @@ class User extends Authenticatable
     use HasFactory;
     use Notifiable;
 
-    public function subscription() 
+    public function subscription()
     {
         return $this->hasOne(Subscription::class);
     }
