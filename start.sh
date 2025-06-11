@@ -24,6 +24,7 @@ mkdir -p "storage/framework/testing"
 mkdir -p "storage/framework/views"
 mkdir -p "storage/logs"
 mkdir -p "storage/database"
+mkdir -p "storage/mysql"
 
 touch storage/database/database.sqlite && chmod -R 777 storage/database/database.sqlite
 
