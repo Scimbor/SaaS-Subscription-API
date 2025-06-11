@@ -58,7 +58,7 @@ jobs:
           mkdir -p storage/framework/views
           mkdir -p storage/logs
 
-      - name: Run migrations (for SQLite in-memory)
+      - name: Run migrations
         run: php artisan migrate --env=testing
 
       - name: List files and folders
