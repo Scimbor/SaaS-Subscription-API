@@ -18,3 +18,4 @@ yarn-error.log
 /.vscode
 /storage
 /vendor
+.php-cs-fixer.cache
