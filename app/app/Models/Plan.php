@@ -10,7 +10,6 @@ class Plan extends Model
 {
     use HasFactory;
 
-
     public function subscriptions(): HasMany
     {
         return $this->hasMany(Subscription::class);
