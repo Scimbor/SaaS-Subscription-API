@@ -12,7 +12,7 @@ jobs:
         working-directory: ./app
 
     services:
-      mysql:
+      db:
         image: mysql:9.3.0
         env:
           MYSQL_ROOT_PASSWORD: root
@@ -60,12 +60,6 @@ jobs:
 
       - name: Run migrations
         run: php artisan migrate --env=testing
-
-      - name: List files and folders
-        run: |
-          ls -la
-          ls -la ./storage
-          ls -la ./bootstrap
 
       - name: Run PHPUnit tests
         env:
