@@ -12,7 +12,7 @@ return new class () extends Migration {
     {
         Schema::create('subscriptions_users', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->foreignId('user_id')->constrained(); 
+            $table->foreignId('user_id')->constrained();
             $table->foreignId('plan_id')->constrained('subscriptions_plans')->onDelete('cascade');
             $table->string('status');
             $table->timestamp('starts_at');

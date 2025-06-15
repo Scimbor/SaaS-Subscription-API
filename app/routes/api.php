@@ -2,15 +2,14 @@
 
 use App\Http\Controllers\Api\PlanController;
 use App\Http\Controllers\Api\SubscriptionController;
-use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/plans', [PlanController::class, 'index']);
-Route::post('/subscribe', [SubscriptionController::class, 'store'])->middleware('auth:sanctum');
 Route::get('/me/subscription', [SubscriptionController::class, 'show'])->middleware('auth:sanctum');
-
-
+Route::post('/subscribe', [SubscriptionController::class, 'store'])->middleware('auth:sanctum');
 Route::post('/login', function (Request $request) {
     $request->validate([
         'email' => 'required|email',
@@ -24,6 +23,6 @@ Route::post('/login', function (Request $request) {
     }
 
     return response()->json([
-        'token' => $request->user()->createToken('api-token')->plainTextToken,
+        'token' => $user->createToken('api-token')->plainTextToken,
     ]);
 });
