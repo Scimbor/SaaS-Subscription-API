@@ -11,7 +11,13 @@ return new class () extends Migration {
     public function up(): void
     {
         Schema::create('subscriptions_users', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->foreignId('user_id')->constrained(); 
+            $table->foreignId('plan_id')->constrained('subscriptions_plans')->onDelete('cascade');
+            $table->string('status');
+            $table->timestamp('starts_at');
+            $table->timestamp('ends_at');
+            $table->timestamp('renewal_date');
             $table->timestamps();
         });
     }

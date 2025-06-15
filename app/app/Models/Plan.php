@@ -10,6 +10,8 @@ class Plan extends Model
 {
     use HasFactory;
 
+    protected $table = 'subscriptions_plans';
+
     public function subscriptions(): HasMany
     {
         return $this->hasMany(Subscription::class);

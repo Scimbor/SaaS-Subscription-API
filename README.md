@@ -31,13 +31,13 @@ Celem projektu jest zbudowanie pełnoprawnej aplikacji backendowej w Laravel do 
 ### Etap 3: API i podstawowe modele
 - [x] Modele: User, Subscription, Plan
 - [x] Relacje i migracje
-- [ ] Endpointy REST:
+- [x] Endpointy REST:
   - GET `/api/plans`
   - POST `/api/subscribe`
   - GET `/api/me/subscription`
 
 ### Etap 4: Autoryzacja i dostęp
-- [ ] Sanctum / Passport
+- [x] Sanctum / Passport
 - [ ] Middleware `auth:api`
 - [ ] Testy dostępu
 

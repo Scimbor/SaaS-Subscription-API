@@ -10,6 +10,8 @@ class Subscription extends Model
 {
     use HasFactory;
 
+    protected $table = 'subscriptions_users';
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
