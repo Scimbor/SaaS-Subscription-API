@@ -1,0 +1,76 @@
+2025/06/15 14:12:52 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:12:54 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:12:55 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:13:04 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:13:04 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:13:05 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:13:05 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:13:05 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:13:08 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:14:06 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:14:07 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:15:38 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:19:54 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:20:27 [error] 80#80: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:22:06 [error] 80#80: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:22:07 [error] 80#80: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:22:24 [error] 80#80: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:22:25 [error] 80#80: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
+2025/06/15 14:22:25 [error] 80#80: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../storage/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 13; PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../storage/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 13" while reading response header from upstream, client: 172.21.0.1, server: , request: "GET / HTTP/2.0", upstream: "fastcgi://unix:/run/php/php8.3-fpm.sock:", host: "localhost"
