@@ -14,7 +14,9 @@ return Application::configure(basePath: dirname(__DIR__))
         apiPrefix: 'api/',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        $middleware->append(EnsureAuthenticated::class);
+        $middleware->api(prepend: [
+            EnsureAuthenticated::class,
+        ]);
 
         $middleware->alias([
             'ensure.auth' => EnsureAuthenticated::class,
